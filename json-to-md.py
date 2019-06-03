@@ -32,7 +32,7 @@ with open('README.md','w') as tag_list_md:
                 count,
                 tag_list['tagName'],
                 'https://stackoverflow.com/questions/tagged/' + tag_list['tagName'],
-                tag_list['descriptionTag']
+                tag_list['descriptionTag'].capitalize()
             ))
             count = count + 1
             if count == 11001:
