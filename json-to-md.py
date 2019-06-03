@@ -17,14 +17,14 @@ _Updated as often as I can. Want to contribute? Go ahead and make a pull request
 - [ ] Organize lists
 - [ ] Create easy search for lists.
 
-# Stackoverflow Tag List
+# Stackoverflow Tag List (Some data)
 
 '''
 
 
 with open('README.md','w') as tag_list_md:
     tag_list_md.write(template)
-    with open('TagList.json','r') as tag_list_json:
+    with open('README.json','r') as tag_list_json:
         tag_lists = json.load(tag_list_json)
         count = 1
         for tag_list in tag_lists:
@@ -35,3 +35,5 @@ with open('README.md','w') as tag_list_md:
                 tag_list['descriptionTag']
             ))
             count = count + 1
+            if count == 11001:
+				break;
