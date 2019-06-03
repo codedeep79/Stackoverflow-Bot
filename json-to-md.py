@@ -11,7 +11,7 @@ print('A Stackoverflow Tag List ' + ('Stackoverflow Tag List of '*∞) + 'Stacko
 
 _Updated as often as I can. Want to contribute? Go ahead and make a pull request._
 
-- [x] Index top 1000 Stackoverflow Tag List.
+- [x] Index top 10000 Stackoverflow Tag List.
 - [x] Make a bot do it for me
 - [x] Automate the curation entirely
 - [ ] Organize lists
