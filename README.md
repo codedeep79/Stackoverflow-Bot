@@ -17,7 +17,7 @@ _Updated as often as I can. Want to contribute? Go ahead and make a pull request
 
 ### Install:
 + `pip install selenium`
-### How to use
+### How to use:
 + `python CrawlBot.py` 
 ## Stackoverflow Tag List (Some data)
 
