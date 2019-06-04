@@ -16,12 +16,12 @@ _Updated as often as I can. Want to contribute? Go ahead and make a pull request
 - [ ] Create easy search for lists.
 
 ## Prerequisites
-+ Python 2.7 + Selenium +  
++ Python 2.7 + Selenium 
 
 ### Install:
 + `pip install selenium`
 ### How to use
-+ `python CrawlBot` 
++ `python CrawlBot.py` 
 ## Stackoverflow Tag List (Some data)
 
 '''

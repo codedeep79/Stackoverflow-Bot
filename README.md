@@ -13,12 +13,12 @@ _Updated as often as I can. Want to contribute? Go ahead and make a pull request
 - [ ] Create easy search for lists.
 
 ## Prerequisites
-+ Python 2.7 + Selenium +  
++ Python 2.7 + Selenium 
 
 ### Install:
 + `pip install selenium`
 ### How to use
-+ `python CrawlBot` 
++ `python CrawlBot.py` 
 ## Stackoverflow Tag List (Some data)
 
 __1. [javascript](https://stackoverflow.com/questions/tagged/javascript)__: Javascript (not to be confused with java) is a high-level, dynamic, multi-paradigm, object-oriented, prototype-based, weakly-typed language used for both client-side and server-side scripting. its pri
