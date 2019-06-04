@@ -47,13 +47,11 @@ def get_repos(pages=100):
             except Exception as e:
                 console.error(str(e))
         sleep(2)
-        #browser.find_element_by_class_name("next").click()
-    #browser.quit()
 
 try:
     get_repos(pages=1619)
 except:
     pass
 
-with open('./TagList.json', 'w') as curated_list_json_file:
+with open('./README.json', 'w') as curated_list_json_file:
     json.dump(curated_lists, curated_list_json_file, indent=4)

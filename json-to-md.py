@@ -33,11 +33,12 @@ with open('README.md','w') as tag_list_md:
         tag_lists = json.load(tag_list_json)
         count = 1
         for tag_list in tag_lists:
+            descriptionTag = tag_list['descriptionTag'].capitalize() + "..."
             tag_list_md.write('__{}. [{}]({})__: {}\n\n'.format(
                 count,
                 tag_list['tagName'],
                 'https://stackoverflow.com/questions/tagged/' + tag_list['tagName'],
-                tag_list['descriptionTag'].capitalize()
+                descriptionTag
             ))
             count = count + 1
             if count == 11001:
