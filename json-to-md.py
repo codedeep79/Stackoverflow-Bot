@@ -3,8 +3,6 @@ import os, json
 
 template='''# All Stackoverflow Tag List
 
-Ever wish there was a curated list for your curated lists, including other curated lists of curated lists that may or may not contain other curated lists?
-
 ``` python
 print('A Stackoverflow Tag List ' + ('Stackoverflow Tag List of '*∞) + 'Stackoverflow Tag List.')
 ```
@@ -17,7 +15,14 @@ _Updated as often as I can. Want to contribute? Go ahead and make a pull request
 - [ ] Organize lists
 - [ ] Create easy search for lists.
 
-# Stackoverflow Tag List (Some data)
+## Prerequisites
++ Python 2.7 + Selenium +  
+
+### Install:
++ `pip install selenium`
+### How to use
++ `python CrawlBot` 
+## Stackoverflow Tag List (Some data)
 
 '''
 
